@@ -1,0 +1,39 @@
+2026-04-23 11:25:46,111 - stt_api - INFO - Starting FastAPI server on http://localhost:8000
+2026-04-23 11:43:20,758 - stt_api - INFO - Starting FastAPI server on http://localhost:8000
+2026-04-23 11:58:57,114 - stt_api - INFO - Starting FastAPI server on http://localhost:8000
+2026-04-23 12:00:28,778 - stt_api - INFO - [c6b38f3a-f414-4278-a60f-1d54dc06fdd8] Received file: Apr 23, 11.54 AM_.mp3
+2026-04-23 12:00:28,778 - stt_api - INFO - Processing received audio bytes...
+2026-04-23 12:00:28,811 - stt_api - ERROR - Error during processing: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:00:28,811 - stt_api - CRITICAL - [c6b38f3a-f414-4278-a60f-1d54dc06fdd8] Server Error: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:00:31,434 - stt_api - INFO - [6898e9fd-62fd-4b5f-a3b7-721e1f7165a3] Received file: Apr 23, 11.54 AM_.mp3
+2026-04-23 12:00:31,434 - stt_api - INFO - Processing received audio bytes...
+2026-04-23 12:00:31,436 - stt_api - ERROR - Error during processing: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:00:31,436 - stt_api - CRITICAL - [6898e9fd-62fd-4b5f-a3b7-721e1f7165a3] Server Error: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:00:48,499 - stt_api - INFO - [e7de4786-01e8-4e64-8129-3e569655d37a] Received file: Apr 23, 11.54 AM_.mp3
+2026-04-23 12:00:48,499 - stt_api - INFO - Processing received audio bytes...
+2026-04-23 12:00:48,501 - stt_api - ERROR - Error during processing: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:00:48,502 - stt_api - CRITICAL - [e7de4786-01e8-4e64-8129-3e569655d37a] Server Error: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:05:43,145 - stt_api - INFO - Starting FastAPI server on http://localhost:8000
+2026-04-23 12:06:00,774 - stt_api - INFO - [b774f3e9-ff17-4334-a619-9d329861e42f] Received file: Apr 23, 11.54 AM_.mp3
+2026-04-23 12:06:00,775 - stt_api - INFO - Processing received audio bytes...
+2026-04-23 12:06:00,777 - stt_api - ERROR - Error during processing: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:06:00,777 - stt_api - CRITICAL - [b774f3e9-ff17-4334-a619-9d329861e42f] Server Error: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:06:02,622 - stt_api - INFO - [812ffebb-8694-44cd-889e-49fed1326997] Received file: Apr 23, 11.54 AM_.mp3
+2026-04-23 12:06:02,622 - stt_api - INFO - Processing received audio bytes...
+2026-04-23 12:06:02,624 - stt_api - ERROR - Error during processing: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:06:02,624 - stt_api - CRITICAL - [812ffebb-8694-44cd-889e-49fed1326997] Server Error: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:06:47,569 - stt_api - INFO - Starting FastAPI server on http://localhost:8000
+2026-04-23 12:06:52,344 - stt_api - INFO - [cf0c8872-58cc-4fb2-a54c-ecee8198cc40] Received file: Apr 23, 11.54 AM_.mp3
+2026-04-23 12:06:52,344 - stt_api - INFO - Processing received audio bytes...
+2026-04-23 12:06:52,346 - stt_api - ERROR - Error during processing: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:07:03,690 - stt_api - INFO - Starting FastAPI server on http://localhost:8000
+2026-04-23 12:07:12,769 - stt_api - INFO - [758aaf65-04d5-4494-953d-fdf29fbe5125] Received file: Apr 23, 11.54 AM_.mp3
+2026-04-23 12:07:12,769 - stt_api - INFO - Processing received audio bytes...
+2026-04-23 12:07:12,772 - stt_api - ERROR - Error during processing: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:07:13,523 - stt_api - INFO - [035392ef-dd9d-4354-9619-ada80cfde9d3] Received file: Apr 23, 11.54 AM_.mp3
+2026-04-23 12:07:13,523 - stt_api - INFO - Processing received audio bytes...
+2026-04-23 12:07:13,525 - stt_api - ERROR - Error during processing: [WinError 193] %1 is not a valid Win32 application
+2026-04-23 12:08:57,896 - stt_api - INFO - Starting FastAPI server on http://localhost:8000
+2026-04-23 12:09:01,785 - stt_api - INFO - [0f742db7-fc2e-4ea7-8b75-a45c7886855d] Received file: Apr 23, 11.54 AM_.mp3
+2026-04-23 12:09:01,786 - stt_api - INFO - Processing received audio bytes...
+2026-04-23 12:09:01,788 - stt_api - ERROR - Error during processing: [WinError 193] %1 is not a valid Win32 application
