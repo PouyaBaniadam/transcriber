@@ -6,7 +6,7 @@ from logger_config import logger
 recognizer = sr.Recognizer()
 
 
-async def process_audio_to_text(audio_bytes: bytes, language: str = "en-US") -> str:
+async def process_audio_to_text(audio_bytes: bytes, language: str = "fa-UR") -> str:
     try:
         logger.info(f"Processing audio with language: {language}")
         audio_segment = AudioSegment.from_file(io.BytesIO(audio_bytes))
