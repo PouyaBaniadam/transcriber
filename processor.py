@@ -6,9 +6,9 @@ from logger_config import logger
 recognizer = sr.Recognizer()
 
 
-async def process_audio_to_text(audio_bytes: bytes) -> str:
+async def process_audio_to_text(audio_bytes: bytes, language: str = "en-US") -> str:
     try:
-        logger.info("Processing audio...")
+        logger.info(f"Processing audio with language: {language}")
         audio_segment = AudioSegment.from_file(io.BytesIO(audio_bytes))
 
         wav_io = io.BytesIO()
@@ -18,9 +18,15 @@ async def process_audio_to_text(audio_bytes: bytes) -> str:
         with sr.AudioFile(wav_io) as source:
             audio_data = recognizer.record(source)
 
-        text = recognizer.recognize_google(audio_data, language="en-US")
-        logger.info(f"Success: {text[:30]}...")
+        text = recognizer.recognize_google(audio_data, language=language)
+
+        logger.info(f"Transcription successful ({language})")
         return text
+
+    except sr.UnknownValueError:
+        logger.warning(f"Speech was unintelligible in language: {language}")
+        raise ValueError("Could not understand audio.")
+
     except Exception as e:
-        logger.error(f"Processing error: {str(e)}")
+        logger.error(f"Error in processor: {str(e)}")
         raise e
