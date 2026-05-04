@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+SpeechRecognition
+pydub
+transformers
+pika
+pydub
+SpeechRecognition
